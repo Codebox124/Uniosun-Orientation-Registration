@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/548cd5a76e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href='/src/style.css'>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/src/favicon_io/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/src/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/src/favicon_io/site.webmanifest">
+  <title>Orientation Registration</title>
+</head>
+<body>
+  <!-- form  container-->
+  <div class="container">
+    <div class="header">
+      <h3>100 Level Orientation Programme</h3>
+    </div>
+    <!-- form -->
+    <form action="" id="form" class="form">
+      <!-- input container -->
+      <div class="form-control">
+        <label>FullName</label>
+        <input type="text" placeholder="John Doe" id="name" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small></small>
+      </div>
+
+      <div class="form-control">
+        <label>Email</label>
+        <input type="text" placeholder="example@email.com" id="email" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error</small>
+      </div>
+
+      <div class="form-control">
+        <label>Jamb Reg no</label>
+        <input type="text" placeholder="e.g 2022515234545AF" id="reg-number" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error</small>
+      </div>
+
+      <div class="form-control">
+        <label>Phone Number</label>
+        <input type="text" placeholder="e.g 07083673658" id="phone-number" />
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error</small>
+      </div>
+
+      <div class="form-control">
+        <label>Department</label>
+        <select  name="" id="department">
+          <option value="Information Technology">Information Technology</option>
+          <option value="Computer Science">Computer Science</option>
+          <option value="Information System">Information System</option>
+          <option value="Cyber Security">Cyber Security</option>
+          <option value="Software Engineering">Software Engineering</option>
+        </select>
+      </div>
+    
+
+      <!-- button -->
+      <button>Register</button>
+    </form>
+    <!-- link to js, edit the src path if form isn't working -->
+  <script src="/src/script.js"></script>
+</body>
+</html>
