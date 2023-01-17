@@ -39,10 +39,14 @@ body {
 .form {
   padding: 30px 40px;
 }
+label{
+  font-weight: bold;
+}
 .form-control{
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
+   
 }
 .form-control label{
     display: inline-block;
@@ -115,4 +119,7 @@ select{
 .radios div{
   flex-grow: 1;
   margin:10px  ;
+}
+.form-control div{
+  flex-grow: 1;
 }
