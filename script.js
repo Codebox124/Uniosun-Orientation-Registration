@@ -36,8 +36,15 @@ else if(regNoValue.length < 14 || regNoValue.length >14 ){
 else{
   success(regNo)
 }
-
-
+if(phoneNoValue === ''){
+  errorMsg(phoneNo, "Phone Number can't be empty")
+}
+else if (isNaN(phoneNoValue)){
+  errorMsg(phoneNo, "Not a valid Phone Number")
+}
+else{
+  success(phoneNo)
+}
 
 }
 function errorMsg(input, value) {
