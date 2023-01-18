@@ -1,5 +1,5 @@
 :root{
-  --primary: blue;
+  --primary: lightgrey;
   --secondary: #ffffff;
   --black: #000000;
 }
@@ -53,14 +53,14 @@ label{
     margin-bottom: 5px;
 }
 .form-control input{
-    border: 2px solid rgb(63, 63, 161);
+    border: 2px solid var(--primary);
     display: block;
     width: 100%;
     padding: 10px;
     font-size: 14px;
     font-family: inherit;
     outline: none;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .form i{
     position: absolute;
