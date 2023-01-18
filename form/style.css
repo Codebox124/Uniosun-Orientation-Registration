@@ -133,3 +133,11 @@ input{
   width: 100%;
   border: 2px solid var(--primary);
 }
+.radio-control{
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+#no, #female{
+  margin-left: 30%;
+}
