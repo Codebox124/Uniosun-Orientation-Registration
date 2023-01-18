@@ -33,9 +33,14 @@ body {
   background-color: #f7f7f7;
   border-bottom: 1px solid #f0f0f0;
   padding: 20px 40px;
+  display: flex;
+}
+.header div{
+  margin:  2px;
+  flex-grow: 1;
 }
 .header h3 {
-  margin: 0;
+  margin-top: 10px;
   text-align: center;
 }
 .form {
