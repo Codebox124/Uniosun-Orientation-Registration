@@ -50,6 +50,7 @@ else{
 }
 if(dept.value === ''){
   errorMsg(dept, "cannot be empty")
+  dept.getElementsByClassName.borderColor = "#e74c3c";
 }
 else{
   success(dept)
