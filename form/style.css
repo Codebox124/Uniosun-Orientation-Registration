@@ -123,3 +123,10 @@ select{
 .form-control div{
   flex-grow: 1;
 }
+.important{
+  color: red;
+}
+#departments{
+  width: 100%;
+  border: 2px solid var(--primary);
+}
