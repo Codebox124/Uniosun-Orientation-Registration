@@ -3,11 +3,13 @@ const name = document.querySelector("#name");
 const regNo = document.querySelector("#reg-number");
 const  phoneNo= document.querySelector("#phone-number");
 const  email = document.querySelector('#email')
+const dept = document.querySelector('#departments')
 function checkInput() {
   const nameValue = name.value.trim();
   const emailValue = email.value.trim();
   const regNoValue= regNo.value.trim();
  const phoneNoValue = phoneNo.value.trim();
+ 
 //  validation for name
   if (nameValue === "") {
     errorMsg(name, "Name cannot be empty");
@@ -36,6 +38,7 @@ else if(regNoValue.length < 14 || regNoValue.length >14 ){
 else{
   success(regNo)
 }
+// validation for phone No
 if(phoneNoValue === ''){
   errorMsg(phoneNo, "Phone Number can't be empty")
 }
@@ -45,7 +48,12 @@ else if (isNaN(phoneNoValue)){
 else{
   success(phoneNo)
 }
-
+if(dept.value === ''){
+  errorMsg(dept, "cannot be empty")
+}
+else{
+  success(dept)
+}
 }
 function errorMsg(input, value) {
   const formControl = input.parentElement;

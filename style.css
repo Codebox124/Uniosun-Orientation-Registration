@@ -91,7 +91,7 @@ label {
 .form-control.success input {
   border-color: #2ecc71;
 }
-.form-control.error input {
+.form-control.error input, .form-control.error select {
   border-color: #e74c3c;
 }
 .form-control.success i.fa-check-circle {
