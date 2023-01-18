@@ -3,7 +3,7 @@ const name = document.querySelector("#name");
 const regNo = document.querySelector("#reg-number");
 const  phoneNo= document.querySelector("#phone-number");
 const  email = document.querySelector('#email')
-const dept = document.querySelector('#departments')
+
 function checkInput() {
   const nameValue = name.value.trim();
   const emailValue = email.value.trim();
@@ -48,13 +48,7 @@ else if (isNaN(phoneNoValue)){
 else{
   success(phoneNo)
 }
-if(dept.value === ''){
-  errorMsg(dept, "cannot be empty")
-  dept.getElementsByClassName.borderColor = "#e74c3c";
-}
-else{
-  success(dept)
-}
+
 }
 function errorMsg(input, value) {
   const formControl = input.parentElement;
