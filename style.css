@@ -31,6 +31,10 @@ body {
   background-color: #f7f7f7;
   border-bottom: 1px solid #f0f0f0;
   padding: 20px 40px;
+  display: flex;
+}
+.header div{
+  padding:0 10px;
 }
 .header h2 {
   margin: 0;
