@@ -1,7 +1,7 @@
 const form = document.querySelector("#form");
 const name = document.querySelector("#name");
 const email = document.querySelector("#email");
-const password = document.querySelector("#password");
+const number = document.querySelector("#number");
 const passwordCheck = document.querySelector("#password2");
 function checkInput() {
   const nameValue = name.value.trim();

@@ -86,6 +86,7 @@ label{
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 20px;
 }
 .form-control.success input{
   border-color: #2ecc71;
@@ -136,8 +137,7 @@ input{
 .radio-control{
   width: 100%;
   margin-bottom: 20px;
+justify-content: space-between;
+align-items: center;
+}
 
-}
-#no, #female{
-  margin-left: 30%;
-}
