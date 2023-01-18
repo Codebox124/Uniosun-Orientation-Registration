@@ -126,6 +126,9 @@ select{
 .important{
   color: red;
 }
+input{
+  cursor: pointer;
+}
 #departments{
   width: 100%;
   border: 2px solid var(--primary);

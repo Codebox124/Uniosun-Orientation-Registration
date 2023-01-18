@@ -44,6 +44,10 @@ else if (passwordCheckValue !== passwordValue){
 else{
   success(passwordCheck)
 }
+const getSelectedValue = document.querySelector( 'input[name="season"]:checked');   
+ if(getSelectedValue == null) {   
+         
+}  
 
 }
 function errorMsg(input, value) {
