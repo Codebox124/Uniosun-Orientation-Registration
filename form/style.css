@@ -138,8 +138,13 @@ input{
 .radio-control{
   width: 100%;
   margin-bottom: 20px;
-justify-content: space-between;
-align-items: center;
+
+}
+#no, #female{
+  margin-left: 20px;
+}
+.radio-label{
+  margin-left: 5px;
 }
 textarea{
   width: 100%;
